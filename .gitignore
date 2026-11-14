@@ -1,0 +1,8 @@
+/fire
+/channel
+/deadlock
+/results_new.csv
+__pycache__/
+*.pyc
+/measurements/*.bin
+.venv/
