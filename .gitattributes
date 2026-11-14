@@ -1,4 +1,5 @@
 *.pdf binary
+*.docx binary
 *.png binary
 *.gif binary
 *.csv -text
