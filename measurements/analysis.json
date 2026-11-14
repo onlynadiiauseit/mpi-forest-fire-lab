@@ -1,0 +1,770 @@
+{
+  "metadata": {
+    "date_utc": "2026-11-14T13:26:48.549518+00:00",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "os_release": "PRETTY_NAME=\"Ubuntu 26.04 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"26.04\"\nVERSION=\"26.04 (Resolute Raccoon)\"\nVERSION_CODENAME=resolute\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=resolute\nLOGO=ubuntu-logo\n",
+    "cpuinfo": "processor\t: 0\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 0\ncpu cores\t: 6\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 1\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 0\ncpu cores\t: 6\napicid\t\t: 1\ninitial apicid\t: 1\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 2\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 1\ncpu cores\t: 6\napicid\t\t: 2\ninitial apicid\t: 2\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 3\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 1\ncpu cores\t: 6\napicid\t\t: 3\ninitial apicid\t: 3\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 4\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 2\ncpu cores\t: 6\napicid\t\t: 4\ninitial apicid\t: 4\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 5\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 2\ncpu cores\t: 6\napicid\t\t: 5\ninitial apicid\t: 5\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 6\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 3\ncpu cores\t: 6\napicid\t\t: 6\ninitial apicid\t: 6\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 7\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 3\ncpu cores\t: 6\napicid\t\t: 7\ninitial apicid\t: 7\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 8\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 4\ncpu cores\t: 6\napicid\t\t: 8\ninitial apicid\t: 8\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 9\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 4\ncpu cores\t: 6\napicid\t\t: 9\ninitial apicid\t: 9\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 10\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 5\ncpu cores\t: 6\napicid\t\t: 10\ninitial apicid\t: 10\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\nprocessor\t: 11\nvendor_id\t: AuthenticAMD\ncpu family\t: 25\nmodel\t\t: 80\nmodel name\t: AMD Ryzen 5 7430U with Radeon Graphics\nstepping\t: 0\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 2295.628\ncache size\t: 512 KB\nphysical id\t: 0\nsiblings\t: 12\ncore id\t\t: 5\ncpu cores\t: 6\napicid\t\t: 11\ninitial apicid\t: 11\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 13\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nbugs\t\t: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso ibpb_no_ret spectre_v2_user tsa\nbogomips\t: 4591.25\nTLB size\t: 2560 4K pages\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 48 bits physical, 48 bits virtual\npower management:\n\n",
+    "meminfo": "MemTotal:        7821968 kB\nMemFree:         7082152 kB\nMemAvailable:    7205088 kB\nBuffers:            4788 kB\nCached:           229804 kB\nSwapCached:            0 kB\nActive:           100192 kB\nInactive:         266448 kB\nActive(anon):       2568 kB\nInactive(anon):   133016 kB\nActive(file):      97624 kB\nInactive(file):   133432 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097152 kB\nSwapFree:        2097152 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        131880 kB\nMapped:           134532 kB\nShmem:              3604 kB\nKReclaimable:      61668 kB\nSlab:             130924 kB\nSReclaimable:      61668 kB\nSUnreclaim:        69256 kB\nKernelStack:        4048 kB\nPageTables:         5056 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     6008136 kB\nCommitted_AS:     635040 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       31604 kB\nVmallocChunk:          0 kB\nPercpu:             6784 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:       58368 kB\nDirectMap2M:     5918720 kB\nDirectMap1G:    10485760 kB\n",
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "mpi": "Open MPI v5.0.10\n\nhttps://www.open-mpi.org/community/help/\n",
+    "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "settings": {
+      "n": 1472,
+      "weak_n": 384,
+      "extra_n": 512,
+      "repeats": 3,
+      "timeout": 300,
+      "max_p": 12
+    },
+    "physical_cores": 6,
+    "timing_method": "sum of per-step MPI_MAXLOC durations; components from the same critical rank; profiling collectives excluded",
+    "src/fire.c_sha256": "c62b890dee1b0bf4ece03de59e5f4bbf71efb08194d459b4367b2e1e4ac41051",
+    "src/profile.h_sha256": "a60244cf7f5c2c2f2cdd3dc1d1fd999af7bb445671ba0077819992ed984a80ea",
+    "src/channel.c_sha256": "6b63dfc932f4091d338f57eec9cf40c1be7ec37e2b6db5b9b4c855966598ee2f",
+    "src/deadlock.c_sha256": "7f543cd387da57bf87e90c5fe5614a4056562c4a872bfa94b10a64916670e735",
+    "strong_n": 1472,
+    "resumed_utc": "2026-11-14T19:29:52.195495+00:00"
+  },
+  "row_count": 1463,
+  "correctness_runs": 92,
+  "comparisons": 85,
+  "v0_time": 25.809652865,
+  "best": {
+    "p": 8,
+    "n": 1472,
+    "time": 5.394610261,
+    "min": 5.217863816,
+    "max": 6.845636512,
+    "speed": 4.784340594832083,
+    "efficiency": 0.5980425743540104,
+    "steps": 3425,
+    "ticks": 3426,
+    "parts": {
+      "compute": 4.04311161,
+      "exchange": 0.066278289,
+      "count": 0.20482919,
+      "reduction": 1.078800987,
+      "other": 0.001590185
+    },
+    "spread": 1.449572661,
+    "wall": 4.675430432,
+    "profiling": 0.000980263
+  },
+  "strong": [
+    {
+      "p": 1,
+      "n": 1472,
+      "time": 25.830685115,
+      "min": 25.768450103,
+      "max": 26.009763721,
+      "speed": 0.9991857649184928,
+      "efficiency": 0.9991857649184928,
+      "steps": 3425,
+      "ticks": 3426,
+      "parts": {
+        "compute": 24.47156069,
+        "exchange": 0.004133439,
+        "count": 1.334561996,
+        "reduction": 0.015532855,
+        "other": 0.004896135
+      },
+      "spread": 0.0,
+      "wall": 25.832741421,
+      "profiling": 0.00034221
+    },
+    {
+      "p": 2,
+      "n": 1472,
+      "time": 15.2990089,
+      "min": 15.199929141,
+      "max": 15.483306622,
+      "speed": 1.687014697076227,
+      "efficiency": 0.8435073485381135,
+      "steps": 3425,
+      "ticks": 3426,
+      "parts": {
+        "compute": 13.15989676,
+        "exchange": 0.055668329,
+        "count": 0.69694476,
+        "reduction": 1.383879501,
+        "other": 0.00261955
+      },
+      "spread": 2.214986826,
+      "wall": 14.192755124,
+      "profiling": 0.000387627
+    },
+    {
+      "p": 4,
+      "n": 1472,
+      "time": 8.566904672,
+      "min": 8.523747188,
+      "max": 8.658168954,
+      "speed": 3.0127162438676427,
+      "efficiency": 0.7531790609669107,
+      "steps": 3425,
+      "ticks": 3426,
+      "parts": {
+        "compute": 6.880670286,
+        "exchange": 0.026456733,
+        "count": 0.360811846,
+        "reduction": 1.296538856,
+        "other": 0.002426951
+      },
+      "spread": 1.386055292,
+      "wall": 7.881459869,
+      "profiling": 0.000586484
+    },
+    {
+      "p": 8,
+      "n": 1472,
+      "time": 5.394610261,
+      "min": 5.217863816,
+      "max": 6.845636512,
+      "speed": 4.784340594832083,
+      "efficiency": 0.5980425743540104,
+      "steps": 3425,
+      "ticks": 3426,
+      "parts": {
+        "compute": 4.04311161,
+        "exchange": 0.066278289,
+        "count": 0.20482919,
+        "reduction": 1.078800987,
+        "other": 0.001590185
+      },
+      "spread": 1.449572661,
+      "wall": 4.675430432,
+      "profiling": 0.000980263
+    },
+    {
+      "p": 12,
+      "n": 1472,
+      "time": 58.964885734,
+      "min": 54.001275469,
+      "max": 66.16824621,
+      "speed": 0.4377122510070054,
+      "efficiency": 0.03647602091725045,
+      "steps": 3425,
+      "ticks": 3426,
+      "parts": {
+        "compute": 7.262629515,
+        "exchange": 17.937486493,
+        "count": 0.212986901,
+        "reduction": 33.542160401,
+        "other": 0.009622424
+      },
+      "spread": 43.884508762,
+      "wall": 37.470884748,
+      "profiling": 0.016978038
+    }
+  ],
+  "weak": [
+    {
+      "p": 1,
+      "n": 384,
+      "local_cells": 147456.0,
+      "steps": 983,
+      "time": 0.556493889,
+      "v0_time": 0.542682064,
+      "scaled_speed": 0.9751806349125965,
+      "time_ratio": 1.0,
+      "step_ms": 0.5661178931841302,
+      "effective_serial": null
+    },
+    {
+      "p": 2,
+      "n": 543,
+      "local_cells": 147424.5,
+      "steps": 1348,
+      "time": 0.914590813,
+      "v0_time": 1.471644408,
+      "scaled_speed": 1.6090741204504095,
+      "time_ratio": 1.6434876124938005,
+      "step_ms": 0.6784798316023739,
+      "effective_serial": 0.39092587954959046
+    },
+    {
+      "p": 4,
+      "n": 768,
+      "local_cells": 147456.0,
+      "steps": 1820,
+      "time": 1.340506146,
+      "v0_time": 3.905325609,
+      "scaled_speed": 2.913321673797085,
+      "time_ratio": 2.4088425272896394,
+      "step_ms": 0.7365418384615385,
+      "effective_serial": 0.362226108734305
+    },
+    {
+      "p": 8,
+      "n": 1086,
+      "local_cells": 147424.5,
+      "steps": 2264,
+      "time": 2.897608157,
+      "v0_time": 9.803954437,
+      "scaled_speed": 3.383464535505171,
+      "time_ratio": 5.20690022707509,
+      "step_ms": 1.2798622601590106,
+      "effective_serial": 0.6595050663564042
+    },
+    {
+      "p": 12,
+      "n": 1330,
+      "local_cells": 147408.33333333334,
+      "steps": 3244,
+      "time": 44.51245058,
+      "v0_time": 16.526717326,
+      "scaled_speed": 0.3712830255502864,
+      "time_ratio": 79.98731245726222,
+      "step_ms": 13.72147058569667,
+      "effective_serial": 1.0571560885863376
+    }
+  ],
+  "channel": [
+    {
+      "bytes": 8,
+      "time": 1.88789e-07,
+      "min": 1.64592e-07,
+      "max": 1.91775e-07,
+      "model": 1.9284115400563087e-07
+    },
+    {
+      "bytes": 16,
+      "time": 1.85042e-07,
+      "min": 1.83488e-07,
+      "max": 1.9988e-07,
+      "model": 1.948943080112617e-07
+    },
+    {
+      "bytes": 32,
+      "time": 1.97926e-07,
+      "min": 1.89801e-07,
+      "max": 2.09828e-07,
+      "model": 1.9900061602252343e-07
+    },
+    {
+      "bytes": 64,
+      "time": 1.99699e-07,
+      "min": 1.87246e-07,
+      "max": 7.18115e-07,
+      "model": 2.0721323204504684e-07
+    },
+    {
+      "bytes": 128,
+      "time": 2.42991e-07,
+      "min": 1.89471e-07,
+      "max": 3.75533e-07,
+      "model": 2.236384640900937e-07
+    },
+    {
+      "bytes": 256,
+      "time": 2.09148e-07,
+      "min": 2.04138e-07,
+      "max": 3.01944e-07,
+      "model": 2.564889281801874e-07
+    },
+    {
+      "bytes": 512,
+      "time": 3.6828e-07,
+      "min": 3.48422e-07,
+      "max": 4.18327e-07,
+      "model": 3.2218985636037483e-07
+    },
+    {
+      "bytes": 1024,
+      "time": 4.35978e-07,
+      "min": 3.96935e-07,
+      "max": 4.54574e-07,
+      "model": 4.5359171272074964e-07
+    },
+    {
+      "bytes": 2048,
+      "time": 4.73861e-07,
+      "min": 4.59864e-07,
+      "max": 4.90953e-07,
+      "model": 7.163954254414993e-07
+    },
+    {
+      "bytes": 4096,
+      "time": 2.535559e-06,
+      "min": 2.428666e-06,
+      "max": 2.953604e-06,
+      "model": 1.2420028508829985e-06
+    },
+    {
+      "bytes": 8192,
+      "time": 2.936832e-06,
+      "min": 2.85622e-06,
+      "max": 3.045859e-06,
+      "model": 2.293217701765997e-06
+    },
+    {
+      "bytes": 16384,
+      "time": 3.837675e-06,
+      "min": 3.605953e-06,
+      "max": 3.996937e-06,
+      "model": 4.3956474035319934e-06
+    },
+    {
+      "bytes": 32768,
+      "time": 5.410523e-06,
+      "min": 5.215442e-06,
+      "max": 5.412786e-06,
+      "model": 8.600506807063988e-06
+    },
+    {
+      "bytes": 65536,
+      "time": 8.680202e-06,
+      "min": 8.522067e-06,
+      "max": 8.726865e-06,
+      "model": 1.7010225614127974e-05
+    },
+    {
+      "bytes": 131072,
+      "time": 1.6710048e-05,
+      "min": 1.6468642e-05,
+      "max": 1.7304387e-05,
+      "model": 3.382966322825595e-05
+    },
+    {
+      "bytes": 262144,
+      "time": 2.7990266e-05,
+      "min": 2.4583716e-05,
+      "max": 2.9377882e-05,
+      "model": 6.746853845651191e-05
+    },
+    {
+      "bytes": 524288,
+      "time": 5.306052e-05,
+      "min": 5.1861874e-05,
+      "max": 5.6269346e-05,
+      "model": 0.0001347462889130238
+    },
+    {
+      "bytes": 1048576,
+      "time": 0.000100882636,
+      "min": 0.000100873866,
+      "max": 0.000102820297,
+      "model": 0.0002693017898260476
+    },
+    {
+      "bytes": 2097152,
+      "time": 0.00024644144,
+      "min": 0.000239102336,
+      "max": 0.000282641869,
+      "model": 0.0005384127916520952
+    },
+    {
+      "bytes": 4194304,
+      "time": 0.001117609175,
+      "min": 0.000901378117,
+      "max": 0.001149693735,
+      "model": 0.0010766347953041905
+    }
+  ],
+  "alpha": 1.90788e-07,
+  "beta": 3896444191.745813,
+  "channel_r2": 0.919566234138933,
+  "hockney": [
+    {
+      "n": 256,
+      "p": 2,
+      "predicted": 5.129778563603748e-07,
+      "measured": 6.10340782122905e-07,
+      "ratio": 1.189799470981709
+    },
+    {
+      "n": 256,
+      "p": 4,
+      "predicted": 5.129778563603748e-07,
+      "measured": 9.633882681564245e-07,
+      "ratio": 1.8780309056452322
+    },
+    {
+      "n": 256,
+      "p": 8,
+      "predicted": 5.129778563603748e-07,
+      "measured": 3.282e-06,
+      "ratio": 6.3979369855964014
+    },
+    {
+      "n": 512,
+      "p": 2,
+      "predicted": 6.443797127207497e-07,
+      "measured": 3.049666919575114e-06,
+      "ratio": 4.732717153211691
+    },
+    {
+      "n": 512,
+      "p": 4,
+      "predicted": 6.443797127207497e-07,
+      "measured": 3.411298937784522e-06,
+      "ratio": 5.293926656041161
+    },
+    {
+      "n": 512,
+      "p": 8,
+      "predicted": 6.443797127207497e-07,
+      "measured": 6.2966570561456756e-06,
+      "ratio": 9.771656263912227
+    },
+    {
+      "n": 1024,
+      "p": 2,
+      "predicted": 9.071834254414993e-07,
+      "measured": 2.696967298578199e-06,
+      "ratio": 2.9729018663074283
+    },
+    {
+      "n": 1024,
+      "p": 4,
+      "predicted": 9.071834254414993e-07,
+      "measured": 4.301650710900474e-06,
+      "ratio": 4.741765105339075
+    },
+    {
+      "n": 1024,
+      "p": 8,
+      "predicted": 9.071834254414993e-07,
+      "measured": 6.827305687203792e-06,
+      "ratio": 7.525827187463378
+    }
+  ],
+  "extra": [
+    {
+      "p": 2,
+      "ordered": 0.601227851,
+      "nonblocking": 0.607965961,
+      "overlap": 0.595981521,
+      "2d": 0.616230478,
+      "overlap_speed": 1.0201087442776602,
+      "two_d_speed": 0.9756541950851059
+    },
+    {
+      "p": 4,
+      "ordered": 0.393766807,
+      "nonblocking": 0.409095404,
+      "overlap": 0.43767002,
+      "2d": 0.405515583,
+      "overlap_speed": 0.9347119640499937,
+      "two_d_speed": 0.9710275597473155
+    },
+    {
+      "p": 8,
+      "ordered": 0.284976287,
+      "nonblocking": 0.27674285,
+      "overlap": 0.31984762,
+      "2d": 0.307298367,
+      "overlap_speed": 0.8652334195889905,
+      "two_d_speed": 0.9273602387870807
+    },
+    {
+      "p": 12,
+      "ordered": 15.841616696,
+      "nonblocking": 14.178621392,
+      "overlap": 14.443320363,
+      "2d": 15.248635061,
+      "overlap_speed": 0.981673260417453,
+      "two_d_speed": 1.0388875222357845
+    }
+  ],
+  "hybrid": [
+    {
+      "cores": 2,
+      "mpi_p": 2,
+      "hybrid_p": 1,
+      "threads": 2,
+      "mpi": 0.652057019,
+      "hybrid": 0.628733661,
+      "speed": 1.0370957679646167
+    },
+    {
+      "cores": 4,
+      "mpi_p": 4,
+      "hybrid_p": 2,
+      "threads": 2,
+      "mpi": 0.472609031,
+      "hybrid": 0.4242127,
+      "speed": 1.1140850592167562
+    },
+    {
+      "cores": 6,
+      "mpi_p": 6,
+      "hybrid_p": 3,
+      "threads": 2,
+      "mpi": 0.363647488,
+      "hybrid": 0.329552808,
+      "speed": 1.1034574100791763
+    }
+  ],
+  "deadlock": [
+    {
+      "bytes": 4016,
+      "ordered": 1.685192e-06,
+      "nonblocking": 1.014429e-06,
+      "speed": 1.661222224522367
+    },
+    {
+      "bytes": 4017,
+      "ordered": 6.740468e-06,
+      "nonblocking": 3.679263e-06,
+      "speed": 1.8320158140366698
+    },
+    {
+      "bytes": 8192,
+      "ordered": 9.24196e-06,
+      "nonblocking": 3.740329e-06,
+      "speed": 2.470894939990573
+    },
+    {
+      "bytes": 65536,
+      "ordered": 2.3027758e-05,
+      "nonblocking": 1.5212206e-05,
+      "speed": 1.513768483019491
+    },
+    {
+      "bytes": 1048576,
+      "ordered": 0.000259131336,
+      "nonblocking": 0.000144045977,
+      "speed": 1.7989487898020229
+    },
+    {
+      "bytes": 4194304,
+      "ordered": 0.00182417923,
+      "nonblocking": 0.001248736617,
+      "speed": 1.4608198439655429
+    }
+  ],
+  "threshold": {
+    "largest_safe": 4016,
+    "smallest_deadlock": 4017,
+    "timeout_s": 3,
+    "confirmation_repeats": 3
+  },
+  "percolation": [
+    {
+      "d": 0.5,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.51,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.52,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.53,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.54,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.55,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.56,
+      "reached": 0,
+      "samples": 50,
+      "probability": 0,
+      "low": 0.0,
+      "high": 0.07135003417431873
+    },
+    {
+      "d": 0.57,
+      "reached": 3,
+      "samples": 50,
+      "probability": 0.06,
+      "low": 0.020614596364630478,
+      "high": 0.16217343370877002
+    },
+    {
+      "d": 0.58,
+      "reached": 9,
+      "samples": 50,
+      "probability": 0.18,
+      "low": 0.0977008273245379,
+      "high": 0.3079631945470261
+    },
+    {
+      "d": 0.59,
+      "reached": 19,
+      "samples": 50,
+      "probability": 0.38,
+      "low": 0.2586259584257722,
+      "high": 0.5184980497760643
+    },
+    {
+      "d": 0.6,
+      "reached": 32,
+      "samples": 50,
+      "probability": 0.64,
+      "low": 0.5014076201030195,
+      "high": 0.7586143703281711
+    },
+    {
+      "d": 0.61,
+      "reached": 45,
+      "samples": 50,
+      "probability": 0.9,
+      "low": 0.7863950966521162,
+      "high": 0.956524876008429
+    },
+    {
+      "d": 0.62,
+      "reached": 49,
+      "samples": 50,
+      "probability": 0.98,
+      "low": 0.8950431352816304,
+      "high": 0.9964608319110235
+    },
+    {
+      "d": 0.63,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.64,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.65,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.66,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.67,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.68,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.69,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    },
+    {
+      "d": 0.7,
+      "reached": 50,
+      "samples": 50,
+      "probability": 1,
+      "low": 0.9286499658256813,
+      "high": 1.0
+    }
+  ],
+  "percolation_threshold": 0.5946153846153845,
+  "models": [
+    {
+      "p": 1,
+      "strong_relative": 1.0,
+      "amdahl": 1.0,
+      "scaled_measured": 0.9751806349125965,
+      "gustafson": 1.0
+    },
+    {
+      "p": 2,
+      "strong_relative": 1.6883894429919575,
+      "amdahl": 1.7665303605488643,
+      "scaled_measured": 1.6090741204504095,
+      "gustafson": 1.6349039141841666
+    },
+    {
+      "p": 4,
+      "strong_relative": 3.0151713021185818,
+      "amdahl": 2.8643272668388144,
+      "scaled_measured": 2.913321673797085,
+      "gustafson": 2.9047117425524993
+    },
+    {
+      "p": 8,
+      "strong_relative": 4.7882393472872975,
+      "amdahl": 4.155542449776108,
+      "scaled_measured": 3.383464535505171,
+      "gustafson": 5.444327399289166
+    },
+    {
+      "p": 12,
+      "strong_relative": 0.43806894210778835,
+      "amdahl": 4.890391943811335,
+      "scaled_measured": 0.3712830255502864,
+      "gustafson": 7.983943056025831
+    }
+  ],
+  "amdahl_s": 0.13216282304856403,
+  "gustafson_s": 0.3650960858158335,
+  "model_fit_p": [
+    2,
+    4
+  ]
+}

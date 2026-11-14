@@ -1,7 +1,10 @@
 /fire
 /channel
 /deadlock
+/.profile_test
 /results_new.csv
+/measurements/*_new.json
+/measurements/raw_runs_new.jsonl
 __pycache__/
 *.pyc
 /measurements/*.bin

@@ -1,0 +1,31 @@
+{
+  "correctness_runs": 92,
+  "full_grid_comparisons": 85,
+  "csv_records": 1463,
+  "raw_runs": 356,
+  "statuses": {
+    "успішно": 1454,
+    "тайм-аут": 9
+  },
+  "critical_step_profile_additive": true,
+  "synthetic_maxloc_test": "passed, including changing rank and ties",
+  "invalid_inputs_rejected": 6,
+  "gif_frames": 56,
+  "gif_final_cells_compared": 14232,
+  "all_ten_figures_reproduced": true,
+  "same_size_sequential_weak_baselines": true,
+  "hybrid_equal_physical_cores": [
+    2,
+    4,
+    6
+  ],
+  "deadlock_threshold": {
+    "largest_safe": 4016,
+    "smallest_deadlock": 4017,
+    "timeout_s": 3,
+    "confirmation_repeats": 3
+  },
+  "report_pages": 9,
+  "report_sha256": "6e061fbcb88022b74ec794316315db7d6686f9fb96a5bb930b9e2f354bc61d94",
+  "all_five_bonus_tasks": "implemented, measured and documented"
+}
